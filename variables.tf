@@ -7,7 +7,7 @@ variable "vpc" {
 }
 
 variable "subnet-region" {
-  default     = ""
+  default     = "europe-west2"
   description = "Zone associated with the subnet. Defaults to the region configured in the provider."
 }
 
